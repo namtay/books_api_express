@@ -10,7 +10,7 @@ adminRouter.post("/login",(req,res)=>{
 
 
 adminRouter.post("/logout",(req,res)=>{
-
+ res.send('logout successful');
 })
 
 
