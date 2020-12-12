@@ -1,0 +1,13 @@
+[
+
+    {"title":"The great man","author":"Christabel","number_of_pages":20,"category":"agric","rating":8},
+    {"title":"The great man","author":"Christabel","number_of_pages":13,"category":"agric","rating":4}
+
+    ]
+
+
+
+    {"name":"Willie Aucourte",
+    "rating":1,
+    "books":{"title":"Presto"},
+    "authorId":"4ab4ae6a-2d07-401d-9d5a-9db18ce9340f"},
