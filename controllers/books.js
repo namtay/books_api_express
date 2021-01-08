@@ -7,12 +7,12 @@ const { authenticateToken } = require('../middleware/authentication');
 
 
 
-booksRouter.get("/",(req,res)=>{
-    res.send("This is the main mest backend");
-})
+// booksRouter.get("/",(req,res)=>{
+//     res.send("This is the main mest backend");
+// })
 
 //getting all books
-booksRouter.get('/get',(req,res)=>{
+booksRouter.get("/",(req,res)=>{
     console.log(req);
     const testData = require("./books.json");
     res.json(testData);
