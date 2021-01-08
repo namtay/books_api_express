@@ -12,7 +12,7 @@ booksRouter.get("/",(req,res)=>{
 })
 
 //getting all books
-booksRouter.get('/',(req,res)=>{
+booksRouter.get('/get/',(req,res)=>{
     console.log(req);
     const testData = require("./books.json");
     res.json(testData);
