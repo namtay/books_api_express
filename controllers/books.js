@@ -14,7 +14,7 @@ const { authenticateToken } = require('../middleware/authentication');
 //getting all books
 booksRouter.get("/",(req,res)=>{
     console.log(req);
-    const testData = require("./books.json");
+    const testData = require("../books.json");
     res.json(testData);
 });
 
